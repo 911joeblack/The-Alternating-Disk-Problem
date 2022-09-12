@@ -1,0 +1,24 @@
+Input: A positive integer n and a list of 2n disks of 
+alternating colors light-dark starting with light
+
+Output: A list of 2n disks, the first n disks are dark, 
+the next n disks are light, and an integer m representing
+the number of swaps to move the light ones after the dark ones.
+
+def alternating_disk(n, S):
+	count = 0
+	var swapped
+	var temp
+	result = S
+	for i in result
+		swapped = false
+		for j in result
+			if S[j] > S[j + 1]
+				temp = S[j]
+				S[j] = S[j + 1]
+				S[j + 1] = temp
+				count++
+				swapped = true
+		if swapped == false
+			break
+	return S, count
