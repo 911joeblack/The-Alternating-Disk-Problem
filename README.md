@@ -1,7 +1,6 @@
 # The-Alternating-Disk-Problem
 Group Members: 
-Joel Perez
-Ethan Jones
+Joel Perez, Ethan Jones
 ### How to run 
 ##### 1. (Easy Way) Run From Visual Studio
 Copy and paste the code from Source.cpp into a C++ project and press the run button
